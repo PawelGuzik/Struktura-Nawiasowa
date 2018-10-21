@@ -88,7 +88,7 @@ public class Zadanie4_StrukturaNawiasowaNowaWersja {
 					break;
 				}
 			}
-			if (stos.empty() && np != 0 && nb != 0 && nk != 0)
+			if (stos.empty() && np == 0 && nb == 0 && nk == 0)
 				System.out.println("Struktura nawiasowa jest poprawna");
 			if (!stos.empty())
 				System.out.println("W pliku pozostały nieprawidłowo zamknięte nawiasy: " + stos);
